@@ -1,0 +1,71 @@
+.pic1 {
+  height: 400px;
+  width: auto;
+  float: left;
+}
+
+.pic2 {
+  height: 400px;
+  width: auto;
+  display: flex;
+  float: right;
+}
+
+.chart1 {
+  padding-bottom: 50px;
+  margin-left: 30px;
+  float: left;
+  clear: left;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.chart2 {
+  padding-bottom: 50px;
+  float: right;
+  clear: right;
+  display: grid;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  word-wrap: break-word; /* add this to wrap text */
+  max-width: calc(50% - 50px); /* add this to limit width */
+}

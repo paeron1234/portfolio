@@ -1,0 +1,16 @@
+img {
+  height: 400px;
+  width: auto;
+  object-fit: scale-down;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div {
+  text-align: center;
+  flex: content;
+  flex-wrap: wrap;
+  inline-size: 500px;
+  margin: auto;
+}

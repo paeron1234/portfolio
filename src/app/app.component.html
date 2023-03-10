@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let story of stories">
+    <a [title]="story.name" [routerLink]="[story.route]">{{ story.name }}</a>
+  </li>
+</ul>
+<router-outlet></router-outlet>
