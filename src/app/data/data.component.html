@@ -2,54 +2,83 @@
   <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
   <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 </head>
-<h1 class="header">COMP 590 Project</h1>
+<h1 class="header">COMP 590 Info Vis Project</h1>
+<h2 class = 'header'>https://www.cnn.com/interactive/2019/07/us/ten-years-of-school-shootings-trnd/</h2>
 <div class="container">
   <div class="row">
     <div class="image">
-      <div class="label">Chart 1</div>
-      <img class="pic1" src="././assets/chart1.jpeg" alt="Image 1" />
+      <div class="label">Charticulator</div>
+      <img class="pic1" src="././assets/xplot.png" alt="Image 1" />
     </div>
     <div class="description">
-      This is the description for the first image. This is the description for
-      the first image. This is the description for the first image. This is the
-      description for the first image. This is the description for the first
-      image. This is the description for the first image. This is the
-      description for the first image. This is the description for the first
-      image. This is the description for the first image.
+      The dataset I chose is about school shootings from 2009-2018. I found this data set from a CNN news
+      article about school shootings over 10 years.  
+      It has numerous variables that are categorical and numerical. I thought this dataset was interesting, 
+      especially because of recent news about school shootings in the past few years. I was interested 
+      in learning more about when and where these shootings are prominent. So my central question was: 
+      when and where are school shootings happening?
+
+      The first graph I made using Charticulator. I graphed the states where shootings occurred on the 
+      x-axis and the number of victims on the y-axis. This helped me learn which states had more shootings 
+      than others. From the graph, we can tell that Florida, Ohio, Illinois, and Texas were among the states 
+      with the highest number of shootings. Additionally, since we have been hearing a lot about school 
+      shootings in recent years I decided to add an additional factor of year to this plot. The x marks are 
+      color coded from light red to dark red. Each year has a color and the colors get darker as you move 
+      toward recent years. When looking at the plot, you can tell that there are significantly more dark 
+      x’s than light ones. This tells us that there are more shootings in recent years than in the past. 
+      We can conclude that shootings are increasing over time. 
     </div>
   </div>
   <div class="row">
     <div class="description">
-      This is the description for the first image. This is the description for
-      the first image. This is the description for the first image. This is the
-      description for the first image. This is the description for the first
-      image. This is the description for the first image. This is the
-      description for the first image. This is the description for the first
-      image. This is the description for the first image.
+      The second graph I made using Altair. On this graph, I made the y-axis the type of school whether 
+      it was elementary, middle, high, etc. Then I made the x-axis the total number of victims for that 
+      school type. At first glance, this graph answers our question of where school shootings are most 
+      prominent and we can immediately see that most shootings happen in high schools. 
+      This is probably because it is easier to gain access to firearms as you grow older. I also wanted 
+      to show how many victims there are in each shooting. The bars are shaded light to dark blue based 
+      on the number of victims in each shooting, light meaning few and dark meaning a lot. Looking at the 
+      graph we can tell that most shootings, regardless of school, only have a few victims. It is 
+      interesting to look at the elementary school bar as there are either very few victims or a lot of 
+      victims, there isn’t really an apparent in-between. 
+
     </div>
     <div class="image">
-      <div class="label">Chart 2</div>
-      <img class="pic2" src="././assets/chart2.jpeg" alt="Image 2" />
+      <div class="label">Altair</div>
+      <img class="pic2" src="././assets/altair.png" alt="Image 2" />
     </div>
   </div>
   <div class="row">
     <div class="image">
-      <div class="label">Chart 3</div>
-      <img class="pic1" src="././assets/chart1.jpeg" alt="Image 3" />
+      <div class="label">Google Sheets</div>
+      <img class="pic3" src="././assets/google.png" alt="Image 3" />
     </div>
     <div class="description">
-      This is the description for the first image. This is the description for
-      the first image. This is the description for the first image. This is the
-      description for the first image. This is the description for the first
-      image. This is the description for the first image. This is the
-      description for the first image. This is the description for the first
-      image. This is the description for the first image.
+      The third chart I made using Google Sheets also addresses where school shootings occur the most. 
+      This is a pie chart that aims to show the percentages 
+      of shootings that happen in different areas. The three areas that were listed in the dataset are 
+      urban, suburbtown, and rural. Each piece of the pie is shaded a different color depending on the 
+      area and percentages are given to the side. 14% of shootings happen in rural areas, 41% in suburban 
+      areas, and 45% in urban areas. We can conclude that more shootings happen in urban areas than in 
+      rural areas. 
+
     </div>
   </div>
-  <iframe
-    src="https://codedisciples.in/Index_2-Embed_Jupyter.html"
-    width="100%"
-    height="500px"
-  >
-  </iframe>
+  <div class="row">
+    <div class="description">
+      The fourth graph I made using Excel. I addressed the years in the first graph, however, I wanted to 
+      see if there was a significant trend over time. To better answer the question of when the shootings 
+      occurred, I created a line graph. I graphed the year on the x-axis and the number of victims on the 
+      y-axis. I also listed the total number of victims next to each data point to help the reader 
+      understand it better. There is a peak in 2012 and 2016. The graph ends in a positive pattern toward 
+      the end. This confirms the statement from the first graph that school shootings are increasing over 
+      time.
+
+    </div>
+    <div class="image">
+      <div class="label">Excel</div>
+      <img class="pic4" src="././assets/excel.png" alt="Image 2" />
+    </div>
+  </div>
 </div>
+
